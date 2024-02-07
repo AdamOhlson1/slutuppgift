@@ -28,7 +28,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.MORSE_API_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.MORSE_API_SECRET_KEY }}
-          application_name: Morse API
+          application_name: Morse API 
           environment_name: MorseAPI-env-1
           version_label: ${{ github.run_id }}
           region: eu-north-1
